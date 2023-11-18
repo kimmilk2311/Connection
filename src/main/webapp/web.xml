@@ -9,4 +9,12 @@
         <servlet-name>TestServlet</servlet-name>
         <url-pattern>/test</url-pattern>
     </servlet-mapping>
+   <error-page> 
+        <error-code>404</error-code>
+        <location>/error_404.jsp</location>
+  </error-page>
+  <error-page> 
+        <error-code>505</error-code>
+        <location>/error_505.jsp</location>
+  </error-page>
 </web-app>
