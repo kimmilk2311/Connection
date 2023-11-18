@@ -28,7 +28,7 @@ public class UserServlet extends HttpServlet {
         
         User user = new User(fName, lName, DoB, PoB, Sex, freeDay);
         req.setAttribute("user", user); //yêu cầu đến user
-        String url ="/Conform.jsp"; // đẩy tới file confom
+        String url ="/Confirm.jsp"; // đẩy tới file confom
         getServletContext().getRequestDispatcher(url).forward(req, res);
         
         PrintWriter printWriter = res.getWriter();
