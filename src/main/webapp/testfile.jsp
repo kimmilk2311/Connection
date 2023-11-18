@@ -15,10 +15,10 @@
      <label class="form-label">Last Name:</label>
      <input type="text" class="form-control" name="LastName" required><br>
      <label class="form-label">Date born:</label>
-     <input type="date" class="form-control" id="DoB" name="ngaysinh">
+     <input type="date" class="form-control" id="DoB" name="DoB">
      <br>
      <label for="country">Select a country:</label><br>
-     <select class="form-select" id="poB" name ="poB">
+     <select class="form-select" id="PoB" name ="PoB">
         <option value="Đà Nẵng" selected> Da Nang </option>
         <option value="Quảng Nam"> Quảng Nam </option>
         <option value="Sài Gòn"> Sài Gòn </option>
@@ -34,13 +34,13 @@
      <label class="form-check-label" for="Orther">Other</label>
      <br>
      Day to go school:
-     <input class="form-check-input" type="checkbox" id="Day1" name="freeDay" value="Monday">
+     <input class="form-check-input" type="checkbox" id="Day1" name="freeday" value="Monday">
      <label class="form-check-label" for="Monday">Monday</label>
-     <input class="form-check-input" type="checkbox" id="Day2" name="freeDay" value="Tuesday">
+     <input class="form-check-input" type="checkbox" id="Day2" name="freeday" value="Tuesday">
      <label class="form-check-label" for="Tuesday">Tuesday</label>
-     <input class="form-check-input" type="checkbox" id="Day3" name="freeDay" value="Wednesday">
+     <input class="form-check-input" type="checkbox" id="Day3" name="freeday" value="Wednesday">
      <label class="form-check-label" for="Wednesday">Wednesday</label>
-     <input class="form-check-input" type="checkbox" id="Day4" name="freeDay" value="Thursday">
+     <input class="form-check-input" type="checkbox" id="Day4" name="freeday" value="Thursday">
      <label class="form-check-label" for="Thursday">Thursday</label>
      <input class="form-check-input" type="checkbox" id="Day5" name="freeDay" value="Friday">
      <label class="form-check-label" for="Friday">Friday</label>

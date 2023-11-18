@@ -15,13 +15,12 @@
    
 %>
 <h2>Order Confirmation</h2>
-<h1>Kimmilk</h1>
-<h2>Ioos</h2>
 <p>
   ${user.firstName} 			
   ${user.lastName}
   ${user.sex}
   ${user.poB}
+  ${user.doB}
 </p>
 
 </form>
