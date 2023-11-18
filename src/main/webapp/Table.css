@@ -1,0 +1,26 @@
+@charset "UTF-8";
+body {
+	font-family: Arial;
+}
+table {
+	border-collapse: collapse;
+	width: 50%;
+	text-align: left;
+	padding: 8px;
+}
+tr {
+	border: 1px solid white;
+}
+td, th {
+  padding: 8px;
+}
+tr:nth-child(odd) {
+	background-color:white;
+}
+div.table2 {
+	font-size: 70%;
+}
+
+table.table_table2 {
+	text-align: left;
+}
