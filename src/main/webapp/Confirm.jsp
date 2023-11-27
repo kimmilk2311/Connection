@@ -16,11 +16,11 @@
 %>
 <h2>Order Confirmation</h2>
 <p>
-  ${user.firstName} 			
-  ${user.lastName}
-  ${user.sex}
-  ${user.poB}
-  ${user.doB}
+  ${user.firstName}<br>		
+  ${user.lastName}<br>
+  ${user.sex}<br>
+  ${user.poB}<br>
+  ${user.doB}<br>
 </p>
 
 </form>
