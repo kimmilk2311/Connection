@@ -15,6 +15,7 @@ public class dbConnect {
         System.out.println("connected!");
         return con;
     }
+	//test connect
 	public static void main(String[] args) throws ClassNotFoundException, SQLException {
 		Connection c = dbConnect.initializeDatabase();
 		Statement stm = c.createStatement();

@@ -1,4 +1,4 @@
-		<%@ page language="java" contentType="text/html; charset=UTF-8"
+<%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
@@ -6,27 +6,32 @@
 <meta charset="UTF-8">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
 <title>Insert title here</title>
 </head>
 <body>
-<form class="container" action="usercomfirm" method = "get">
+<%@ page import="com.java.be.User" %>
+<h1>Edit</h1>
+<%
+%>
+<form class="container" action="edit" method = "post">
      <label class="form-label">First Name:</label>
-     <input type="text" class="form-control" name="FirstName" required><br>
+     <input type="text" class="form-control" name="FirstName" required value="${user.firstName}"><br>
      <label class="form-label">Last Name:</label>
-     <input type="text" class="form-control" name="LastName" required><br>
+     <input type="text" class="form-control" name="LastName" required value="${user.lastName}"><br>
      <label class="form-label">Date born:</label>
-     <input type="date" class="form-control" id="DoB" name="DoB">
+     <input type="date" class="form-control" id="DoB" name="DoB" value="${user.doB }">
      <br>
      <label for="country">Select a country:</label><br>
      <select class="form-select" id="PoB" name ="PoB">
         <option value="Đà Nẵng" selected> Da Nang </option>
-        <option value="Quảng Nam"> Quang Nam </option>
-        <option value="Sài Gòn"> Sai Gon </option>
+        <option value="Quảng Nam"> Quảng Nam </option>
+        <option value="Sài Gòn"> Sài Gòn </option>
         <option value="Gia Lai"> Gia Lai </option>
      </select>
      <br>
      <label for="sex">Choose your sex:</label>
-     <input type ="radio" class="form-check-input" id="Man" name="Sex" value="Man" required>
+     <input type ="radio" class="form-check-input" id="Man" name="Sex" value="Man" required checked="checked">
      <label class="form-check-label" for="Man">Man</label>
      <input type ="radio" class="form-check-input" id="Women" name="Sex" value="Women" required>
      <label class="form-check-label" for="Women">Women</label>
@@ -51,6 +56,5 @@
      <br>
      <input type="submit" class="btn btn-primary" value="Submit">
 </form>
-
 </body>
 </html>
